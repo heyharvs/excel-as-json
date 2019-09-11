@@ -52,10 +52,7 @@ convertValue = (value, options) ->
   if value.length == 0 || !/\S/.test(value)
     value
   else if isFinite(value)
-    if options.convertTextToNumber
-      Number(value)
-    else
-      value
+    value
   else
     testVal = value.toLowerCase()
     if testVal in BOOLTEXT
