@@ -1,6 +1,6 @@
 {
   "name": "excel-as-json",
-  "version": "2.0.2",
+  "version": "2.0.3",
   "description": "Convert Excel data to JSON",
   "author": "Steve Tarver <steve.tarver@gmail.com>",
   "license": "MIT",
@@ -16,7 +16,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/stevetarver/excel-as-json.git"
+    "url": "git+https://github.com/heyharvs/excel-as-json.git"
   },
   "keywords": [
     "Excel",
